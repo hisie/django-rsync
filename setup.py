@@ -9,7 +9,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
     name = 'django-rsync',
     version = '0.1',
-    packages = ['rsync'],
+    packages = ['django_rsync'],
     include_package_data = True,
     license = 'Apache License, Version 2.0', 
     description = 'Simple deployment script using rsync for django projects',
@@ -21,7 +21,7 @@ setup(
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: Apache License, Version 2.0',
+        'License :: OSI Approved :: Apache Software License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2.6',
